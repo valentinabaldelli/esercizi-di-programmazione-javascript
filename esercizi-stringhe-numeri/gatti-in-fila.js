@@ -12,3 +12,11 @@
   Hint: Se vuoi usare l'arrotondamento ti consiglio di non usare Math.round (arrotonda all'intero superiore solo da .5 in su) ma utilizza Math.ceil (arrotonda sempre all'intero superiore).
   http://www.imparareaprogrammare.it
 */
+
+var cats = 44;
+var inFila= 6;
+
+
+var fileTotali= Math.ceil(44/6);
+console.log(fileTotali);
+console.log(fileTotali*6-44);
